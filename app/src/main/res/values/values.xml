@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="material_drawer_animation" type="id"/>
+    <item name="material_drawer_item" type="id"/>
+    <item name="material_drawer_item_container" type="id"/>
+    <item name="material_drawer_item_divider" type="id"/>
+    <item name="material_drawer_item_expandable" type="id"/>
+    <item name="material_drawer_item_expandable_badge" type="id"/>
+    <item name="material_drawer_item_mini" type="id"/>
+    <item name="material_drawer_item_mini_profile" type="id"/>
+    <item name="material_drawer_item_primary" type="id"/>
+    <item name="material_drawer_item_primary_switch" type="id"/>
+    <item name="material_drawer_item_primary_toggle" type="id"/>
+    <item name="material_drawer_item_profile" type="id"/>
+    <item name="material_drawer_item_profile_setting" type="id"/>
+    <item name="material_drawer_item_secondary" type="id"/>
+    <item name="material_drawer_item_secondary_switch" type="id"/>
+    <item name="material_drawer_item_secondary_toggle" type="id"/>
+    <item name="material_drawer_item_section" type="id"/>
+    <item name="material_drawer_menu_default_group" type="id"/>
+    <item name="material_drawer_profile_header" type="id"/>
+    <item name="material_drawer_slider_layout" type="id"/>
+    <item name="material_drawer_sticky_footer" type="id"/>
+    <item name="material_drawer_sticky_header" type="id"/>
+    <declare-styleable name="BezelImageView">
+        <attr format="reference" name="biv_maskDrawable"/>
+        <attr format="boolean" name="biv_drawCircularShadow"/>
+        <attr format="color|reference" name="biv_selectorOnPress"/>
+    </declare-styleable>
+    <declare-styleable name="MaterialDrawer">
+        <attr format="color|reference" name="material_drawer_window_background"/>
+        <attr format="color|reference" name="material_drawer_background"/>
+
+        <attr format="color|reference" name="material_drawer_primary_text"/>
+        <attr format="color|reference" name="material_drawer_primary_icon"/>
+        <attr format="color|reference" name="material_drawer_secondary_text"/>
+        <attr format="color|reference" name="material_drawer_hint_text"/>
+        <attr format="color|reference" name="material_drawer_hint_icon"/>
+        <attr format="color|reference" name="material_drawer_divider"/>
+
+        <attr format="color|reference" name="material_drawer_selected"/>
+        <attr format="color|reference" name="material_drawer_selected_legacy"/> <!-- defines material design 1.0 color -->
+        <attr format="color|reference" name="material_drawer_selected_text"/>
+        <!-- material drawer header attrs-->
+        <attr format="color|reference" name="material_drawer_header_selection_text"/>
+        <attr format="color|reference" name="material_drawer_header_selection_subtext"/>
+
+        <!-- allows to enable / disable legacy style e.g. material 1 -->
+        <attr format="boolean|reference" name="material_drawer_legacy_style"/>
+    </declare-styleable>
+
+    <item name="materialize_root" type="id"/>
+
+    <declare-styleable name="ScrimInsetsRelativeLayout">
+        <attr format="reference|color" name="sirl_insetForeground"/>
+    </declare-styleable>
+    <declare-styleable name="ScrimInsetsView">
+        <attr format="reference|color" name="siv_insetForeground"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bis"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/dddd"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+
+        app:titleTextColor="#004D40"
+        app:title="@string/app_name"
+        android:textAlignment="center"
+
+        app:titleMarginStart="0dp"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="নমাজের সময় তালিকা"
+    android:textAlignment="center"
+    android:textColor="#004D40"
+    android:textSize="20dp"
+    android:fontFamily="@font/josefinsans_semibold"
+    android:textStyle="bold"
+    ></TextView>
+</RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+
+        android:layout_below="@id/dddd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <FrameLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <include
+                    layout="@layout/second"
+                    ></include>
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

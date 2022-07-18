@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">নমাজের সময়</string>
+
+
+    <!--Navigation drawer items-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+
+
+    ///
+
+    <!--Navigation drawer items-->
+    <string name="feedback">Feedback</string>
+    <string name="noconnection">Kindly connect to a WIFI network or enable Mobile Data</string>
+    <string name="action_settings">Settings</string>
+    <!-- aduinit id section-->
+    <!-- <string name="admob_app_id">ca-app-pub-7774473624959541~2879529577</string>
+     <string name="ad_unit_id">ca-app-pub-7774473624959541/6375775669</string>
+     <string name="interstitial">ca-app-pub-7774473624959541/9439825222</string> -->
+
+</resources>
